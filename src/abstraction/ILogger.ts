@@ -5,8 +5,9 @@ type ReadOptions = {
     from: Date,
     to: Date,
     logLevels: LogLevels[],
+    domains: string[],
     labels: string[],
-    groups: string[]
+    groups: string[],
 }
 
 export default interface ILogger {
