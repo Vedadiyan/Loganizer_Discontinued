@@ -1,0 +1,20 @@
+{
+  "name": "loganaizer",
+  "version": "1.0.0",
+  "description": "A centralized log management system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node ./dist/index.js"
+  },
+  "keywords": [
+    "Logger",
+    "Central",
+    "Log",
+    "Management"
+  ],
+  "author": "Pouya Vedadiyan",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
